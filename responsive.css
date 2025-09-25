@@ -65,6 +65,13 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .info-about-left {
+    width: 93%;
+    margin-top: 20px;
+}
+}
+
 @media only screen and (max-width: 599px) {
   .home .homeContainer {
     margin-left: 2rem;
@@ -165,6 +172,19 @@
 .comapnyName p {
     font-size: 16px;
 }
+
+.img-about-right img {
+    width: 22rem;
+}
+
+.info-about-left h2 {
+    font-family: headings;
+    color: #03045e;
+    font-size: 22px;
+}
+.info-about-left p {
+    font-size: 18px;
+}
 }
 
 @media only screen and (max-width: 376px) {
@@ -193,6 +213,16 @@
 
 .serviceBox {
     width: 20rem;
+}
+.img-about-right img {
+    width: 20rem;
+}
+
+.info-about-left h2 {
+    font-size: 20px;
+}
+.info-about-left p {
+    font-size: 17px;
 }
 }
 
